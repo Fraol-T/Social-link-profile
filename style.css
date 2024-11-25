@@ -3,11 +3,17 @@
     src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype') ;
 
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'inter';
     background-color: #141414;
+    height: 960px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .container{
     background-color: #1f1f1f;
